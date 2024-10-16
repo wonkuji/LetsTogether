@@ -16,6 +16,7 @@
 		A6D429992CBFB6E900AD6ADC /* LetsTogetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D429982CBFB6E900AD6ADC /* LetsTogetherTests.swift */; };
 		A6D429A32CBFB6E900AD6ADC /* LetsTogetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D429A22CBFB6E900AD6ADC /* LetsTogetherUITests.swift */; };
 		A6D429A52CBFB6E900AD6ADC /* LetsTogetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D429A42CBFB6E900AD6ADC /* LetsTogetherUITestsLaunchTests.swift */; };
+		A6D429B32CBFCBCA00AD6ADC /* Person.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D429B22CBFCBCA00AD6ADC /* Person.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A6D4299E2CBFB6E900AD6ADC /* LetsTogetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTogetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D429A22CBFB6E900AD6ADC /* LetsTogetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTogetherUITests.swift; sourceTree = "<group>"; };
 		A6D429A42CBFB6E900AD6ADC /* LetsTogetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTogetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6D429B22CBFCBCA00AD6ADC /* Person.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Person.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,11 @@
 		A6D429802CBFB6E300AD6ADC /* LetsTogether */ = {
 			isa = PBXGroup;
 			children = (
+				A6D429B12CBFCB9C00AD6ADC /* StoryBoards */,
 				A6D429812CBFB6E300AD6ADC /* AppDelegate.swift */,
 				A6D429832CBFB6E300AD6ADC /* SceneDelegate.swift */,
 				A6D429852CBFB6E300AD6ADC /* ViewController.swift */,
-				A6D429872CBFB6E300AD6ADC /* Main.storyboard */,
 				A6D4298A2CBFB6E900AD6ADC /* Assets.xcassets */,
-				A6D4298C2CBFB6E900AD6ADC /* LaunchScreen.storyboard */,
 				A6D4298F2CBFB6E900AD6ADC /* Info.plist */,
 			);
 			path = LetsTogether;
@@ -125,6 +126,16 @@
 				A6D429A42CBFB6E900AD6ADC /* LetsTogetherUITestsLaunchTests.swift */,
 			);
 			path = LetsTogetherUITests;
+			sourceTree = "<group>";
+		};
+		A6D429B12CBFCB9C00AD6ADC /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A6D429872CBFB6E300AD6ADC /* Main.storyboard */,
+				A6D4298C2CBFB6E900AD6ADC /* LaunchScreen.storyboard */,
+				A6D429B22CBFCBCA00AD6ADC /* Person.xib */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				A6D4298B2CBFB6E900AD6ADC /* Assets.xcassets in Resources */,
 				A6D4298E2CBFB6E900AD6ADC /* Base in Resources */,
+				A6D429B32CBFCBCA00AD6ADC /* Person.xib in Resources */,
 				A6D429892CBFB6E300AD6ADC /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
